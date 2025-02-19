@@ -32,7 +32,7 @@ export default function Experience() {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="flex gap-4 mb-8"
+              className="flex gap-4 mb-8 p-5 rounded shadow-lg dark:shadow-[0_35px_35px_rgba(62,62,62,0.5)]"
             >
               <div className="mt-1">
                 <div className="p-2 bg-primary/10 rounded-full text-primary">

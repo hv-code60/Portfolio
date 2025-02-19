@@ -4,26 +4,38 @@ import { motion } from "framer-motion"
 import { FaNetworkWired, FaServer, FaTools, FaUserFriends } from "react-icons/fa"
 
 const skills = [
-  {
-    category: "Network Engineering",
-    items: ["Network device and tools", "Basic knowledge of computer networking"],
-    icon: <FaNetworkWired className="w-6 h-6" />,
-  },
-  {
-    category: "Technical Skills",
-    items: ["Quick Learner", "Communication skills"],
-    icon: <FaTools className="w-6 h-6" />,
-  },
-  {
-    category: "Team Collaboration",
-    items: ["Team player", "Project coordination"],
-    icon: <FaUserFriends className="w-6 h-6" />,
-  },
-  {
-    category: "System Administration",
-    items: ["Server management", "Infrastructure setup"],
-    icon: <FaServer className="w-6 h-6" />,
-  },
+{
+"skill": "Data Visualization",
+"description": "Ability to create interactive and dynamic dashboards"
+},
+{
+"skill": "SQL",
+"description": "Proficiency in writing complex queries and managing databases"
+},
+{
+"skill": "Statistics",
+"description": "Understanding of statistical concepts and modeling techniques"
+},
+{
+"skill": "Data Mining",
+"description": "Ability to extract insights from large datasets"
+},
+{
+"skill": "Machine Learning",
+"description": "Basic understanding of machine learning algorithms and modeling"
+},
+{
+"skill": "Communication",
+"description": "Ability to effectively communicate insights to stakeholders"
+},
+{
+"skill": "Data Wrangling",
+"description": "Ability to clean, transform, and preprocess data"
+},
+{
+"skill": "Tableau/Power BI",
+"description": "Experience with data visualization tools"
+}
 ]
 
 export default function Skills() {
@@ -48,15 +60,13 @@ export default function Skills() {
               className="p-6 bg-card rounded-lg shadow-lg"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="text-primary">{skill.icon}</div>
-                <h3 className="font-semibold">{skill.category}</h3>
+                {/* <div className="text-primary">{skill.icon}</div> */}
+                <h3 className="font-semibold">{skill.skill}</h3>
               </div>
               <ul className="space-y-2">
-                {skill.items.map((item) => (
-                  <li key={item} className="text-muted-foreground">
-                    {item}
+                  <li className="text-muted-foreground">
+                    {skill.description}
                   </li>
-                ))}
               </ul>
             </motion.div>
           ))}

@@ -15,7 +15,7 @@ export default function About() {
           >
             <div className="relative w-full aspect-square rounded-full overflow-hidden border-4 border-primary/20">
               <Image
-                src="/placeholder.svg"
+                src="/himanshu.jpg"
                 alt="Profile"
                 fill
                 className="object-cover"
@@ -29,21 +29,19 @@ export default function About() {
           >
             <h2 className="text-3xl font-bold mb-6">About Me</h2>
             <p className="text-muted-foreground mb-4">
-              I am a dedicated Network Engineer with a strong foundation in computer
-              networking and system administration. Currently pursuing my education
-              at SGT University, I have developed expertise in network device
-              management, infrastructure setup, and team collaboration.
+            I’m Himanshu Vashist, a data enthusiast with a passion for turning complex data into clear, actionable insights. With a background in Computer Science and expertise in tools like excel tableau , I specialize in Data Analyst and Data Visualization .
             </p>
             <p className="text-muted-foreground mb-6">
-              My experience includes working with various networking tools and
-              technologies, and I pride myself on being a quick learner who can
-              effectively communicate technical concepts to diverse audiences.
+            I thrive on solving real-world problems by analyzing trends, identifying patterns, and presenting findings in a way that drives decision-making. I’m always eager to dive into the data and uncover meaningful stories.
+            </p>
+            <p className="text-muted-foreground mb-6">
+            Outside of work, I enjoy Exploring new datasets, learning about AI, or staying active in the data science community.
             </p>
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <h3 className="font-semibold mb-2">Education</h3>
                 <p className="text-muted-foreground">
-                  B.Tech in Computer Science
+                  BCA in AI & ML (Computer Science)
                   <br />
                   SGT University
                 </p>

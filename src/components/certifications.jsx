@@ -20,6 +20,10 @@ const certifications = [
     title: "HTML and CSS Building a Single-Page Website/COURSERA",
     date: "2023",
   },
+  {
+    title: "Pradarshan 2.0, SGT UNIVERSITY",
+    date: "2024"
+  },
 ]
 
 export default function Certifications() {

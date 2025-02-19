@@ -28,7 +28,7 @@ export default function Contact() {
               </div>
             </div>
             <h3 className="font-semibold mb-2">Phone</h3>
-            <p className="text-muted-foreground">+91 8178391024</p>
+            <p className="text-muted-foreground"><a href="tel:+91 8373931024">+91 8373931024</a></p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -42,7 +42,7 @@ export default function Contact() {
               </div>
             </div>
             <h3 className="font-semibold mb-2">Email</h3>
-            <p className="text-muted-foreground">himanshuvashist61@gmail.com</p>
+            <p className="text-muted-foreground"><a href="mailto:vashisthimanshu60@gmail.com">vashisthimanshu60@gmail.com</a></p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

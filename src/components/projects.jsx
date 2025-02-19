@@ -11,19 +11,19 @@ const projects = [
     title: "AQI (AIR QUALITY INDEX)",
     description:
       "A project with my colleagues on AQI. Air Quality Index using some real-time learning to predict the air of a particular place by giving some parameters.",
-    image: "/placeholder.svg",
+    image: "/project2.webp",
     tags: ["Python", "Machine Learning", "Data Analysis"],
-    github: "#",
-    demo: "#",
+    github: "",
+    demo: "",
   },
   {
     title: "SAFETY HELMET DETECTION",
     description:
       "A project to detect safety helmets in real-time using computer vision and deep learning.",
-    image: "/placeholder.svg",
+    image: "/project1.jpg",
     tags: ["Computer Vision", "Deep Learning", "Python"],
-    github: "#",
-    demo: "#",
+    github: "",
+    demo: "",
   },
 ]
 
@@ -72,7 +72,7 @@ export default function Projects() {
                     ))}
                   </div>
                 </CardContent>
-                <CardFooter className="p-6 pt-0 gap-4">
+                {/* <CardFooter className="p-6 pt-0 gap-4">
                   <Button variant="outline" size="sm" asChild>
                     <a
                       href={project.github}
@@ -93,7 +93,7 @@ export default function Projects() {
                       <FaExternalLinkAlt /> Live Demo
                     </a>
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
             </motion.div>
           ))}
