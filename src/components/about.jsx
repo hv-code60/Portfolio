@@ -15,7 +15,7 @@ export default function About() {
           >
             <div className="relative w-full aspect-square rounded-full overflow-hidden border-4 border-primary/20">
               <Image
-                src="/himanshu.jpg"
+                src="/himanshupp.jpg"
                 alt="Profile"
                 fill
                 className="object-cover"
