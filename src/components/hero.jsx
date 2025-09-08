@@ -18,7 +18,7 @@ export default function Hero() {
             Himanshu Vashist
           </h1>
           <h2 className="text-2xl md:text-3xl text-muted-foreground mb-8">
-            Data Analyst
+            Operations Associate & Data Analyst
           </h2>
           <div className="flex justify-center gap-6">
             <motion.a
@@ -44,7 +44,7 @@ export default function Hero() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              href="https://drive.google.com/file/d/1D9d6p-BOjcmZQYiSK1bqg3hoxHBmp6TA/view"
+              href="https://drive.google.com/file/d/1F3DV2OhmGckZyNSExkRBOekPUqShZvRS/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl hover:text-primary"

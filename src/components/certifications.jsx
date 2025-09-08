@@ -5,25 +5,25 @@ import { FaCertificate } from "react-icons/fa"
 
 const certifications = [
   {
-    title: "CODE SANGAM 24, SGT",
+    title: "MANAGED OPERATIONAL WORKFLOWS IN IBIEA 2025",
+    date: "2025",
+  },
+   {
+    title: "CODE SANGAM 24, SGT UNIVERSITY",
     date: "2024",
   },
   {
-    title: "SYNERGY 2022, SGT UNIVERSITY",
-    date: "2022",
+    title: "Pradarshan 2.0, SGT UNIVERSITY",
+    date: "2024"
   },
   {
     title: "SYNERGY 2023, SGT UNIVERSITY",
     date: "2023",
   },
   {
-    title: "HTML and CSS Building a Single-Page Website/COURSERA",
-    date: "2023",
-  },
-  {
-    title: "Pradarshan 2.0, SGT UNIVERSITY",
-    date: "2024"
-  },
+    title: "SYNERGY 2022, SGT UNIVERSITY",
+    date: "2022",
+  }
 ]
 
 export default function Certifications() {
@@ -48,7 +48,7 @@ export default function Certifications() {
               className="p-6 bg-card rounded-lg shadow-lg"
             >
               <div className="flex items-center gap-3 mb-3">
-                <FaCertificate className="text-primary text-xl" />
+                {/* <FaCertificate className="text-primary text-xl" /> */}
                 <h3 className="font-semibold">{cert.title}</h3>
               </div>
               <p className="text-sm text-muted-foreground">{cert.date}</p>

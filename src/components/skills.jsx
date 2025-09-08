@@ -5,36 +5,44 @@ import { FaNetworkWired, FaServer, FaTools, FaUserFriends } from "react-icons/fa
 
 const skills = [
 {
-"skill": "Data Visualization",
-"description": "Ability to create interactive and dynamic dashboards"
+"skill": "Operations Management",
+"description": "Overseeing and optimizing day-to-day business processes to ensure efficiency."
 },
 {
-"skill": "SQL",
-"description": "Proficiency in writing complex queries and managing databases"
+"skill": "Process Optimization",
+"description": "Identifying and improving workflows for better productivity."
 },
 {
-"skill": "Statistics",
-"description": "Understanding of statistical concepts and modeling techniques"
+"skill": "Event Operations",
+"description": "Coordinating logistics and technology for smooth event execution."
 },
 {
-"skill": "Data Mining",
-"description": "Ability to extract insights from large datasets"
+"skill": "IT Systems Support",
+"description": "Managing and maintaining operational IT infrastructure."
 },
 {
-"skill": "Machine Learning",
-"description": "Basic understanding of machine learning algorithms and modeling"
+"skill": "Data-Driven Decision",
+"description": "Leveraging data insights to guide operational choices."
 },
 {
-"skill": "Communication",
-"description": "Ability to effectively communicate insights to stakeholders"
+"skill": "Team Collaboration",
+"description": "Working effectively across departments to meet business goals."
 },
 {
-"skill": "Data Wrangling",
-"description": "Ability to clean, transform, and preprocess data"
+"skill": "Project Management",
+"description": "Planning and executing operational projects efficiently."
 },
 {
-"skill": "Tableau/Power BI",
-"description": "Experience with data visualization tools"
+"skill": "Problem Solving",
+"description": "Quickly identifying and resolving operational issues."
+},
+{
+"skill": "AI-Driven Analysis",
+"description": "Using AI tools to analyze data and solve operational problems."
+},
+{
+"skill": "Adaptability",
+"description": "Adjusting to changing business needs and environments swiftly."
 }
 ]
 

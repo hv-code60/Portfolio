@@ -11,6 +11,13 @@ const experiences = [
     description:
       "Coordinate with the IT department to resolve appropriate changes to development and maintenance.",
   },
+  {
+    title: "Evren Global Solutions Pvt. Ltd.",
+    role: "Data Analyst",
+    duration: "01/02/2025 TO 31/07/2025",
+    description:
+      "Collected, organized, and visualized data to provide actionable business insights to the sales team.",
+  },
 ]
 
 export default function Experience() {
