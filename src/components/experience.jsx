@@ -14,7 +14,7 @@ const experiences = [
   {
     title: "Evren Global Solutions Pvt. Ltd.",
     role: "Data Analyst",
-    duration: "01/02/2025 TO 31/07/2025",
+    duration: "01/02/2025 TO 31/08/2025",
     description:
       "Collected, organized, and visualized data to provide actionable business insights to the sales team.",
   },
