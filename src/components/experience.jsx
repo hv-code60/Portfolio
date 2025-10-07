@@ -5,11 +5,11 @@ import { FaBriefcase } from "react-icons/fa"
 
 const experiences = [
   {
-    title: "UNO MINDA LIMITED PINDER DIVISION",
-    role: "HARDWARE AND I/O OPERATOR",
-    duration: "09/07/2023 TO 15/08/2023",
+    title: "Traveon",
+    role: "Operations Associate",
+    duration: "01/09/2025 TO Till Now",
     description:
-      "Coordinate with the IT department to resolve appropriate changes to development and maintenance.",
+      "Executed daily operational tasks, coordinated cross-functional teams, managed logistics and documentation, analyzed data to improve efficiency, and ensured timely project delivery.",
   },
   {
     title: "Evren Global Solutions Pvt. Ltd.",
@@ -17,6 +17,13 @@ const experiences = [
     duration: "01/02/2025 TO 31/08/2025",
     description:
       "Collected, organized, and visualized data to provide actionable business insights to the sales team.",
+  },
+  {
+    title: "UNO MINDA LIMITED PINDER DIVISION",
+    role: "HARDWARE AND I/O OPERATOR",
+    duration: "09/07/2023 TO 15/08/2023",
+    description:
+      "Coordinate with the IT department to resolve appropriate changes to development and maintenance.",
   },
 ]
 
