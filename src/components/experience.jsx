@@ -18,13 +18,13 @@ const experiences = [
     description:
       "Collected, organized, and visualized data to provide actionable business insights to the sales team.",
   },
-  {
-    title: "UNO MINDA LIMITED PINDER DIVISION",
-    role: "HARDWARE AND I/O OPERATOR",
-    duration: "09/07/2023 TO 15/08/2023",
-    description:
-      "Coordinate with the IT department to resolve appropriate changes to development and maintenance.",
-  },
+  // {
+  //   title: "UNO MINDA LIMITED PINDER DIVISION",
+  //   role: "HARDWARE AND I/O OPERATOR",
+  //   duration: "09/07/2023 TO 15/08/2023",
+  //   description:
+  //     "Coordinate with the IT department to resolve appropriate changes to development and maintenance.",
+  // },
 ]
 
 export default function Experience() {

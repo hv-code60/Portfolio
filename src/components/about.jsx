@@ -16,7 +16,7 @@ export default function About() {
             
             <div className="relative w-full aspect-square rounded-full overflow-hidden border-4 border-primary/20">
               <Image
-                src="/h.jpg"
+                src="/hv.jpg"
                 alt="Profile"
                 fill
                 className="object-cover"
