@@ -1,49 +1,43 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { FaNetworkWired, FaServer, FaTools, FaUserFriends } from "react-icons/fa"
 
-const skills = [
-{
-"skill": "Operations Management",
-"description": "Overseeing and optimizing day-to-day business processes to ensure efficiency."
-},
-{
-"skill": "Process Optimization",
-"description": "Identifying and improving workflows for better productivity."
-},
-{
-"skill": "Event Operations",
-"description": "Coordinating logistics and technology for smooth event execution."
-},
-{
-"skill": "IT Systems Support",
-"description": "Managing and maintaining operational IT infrastructure."
-},
-{
-"skill": "Data-Driven Decision",
-"description": "Leveraging data insights to guide operational choices."
-},
-{
-"skill": "Team Collaboration",
-"description": "Working effectively across departments to meet business goals."
-},
-{
-"skill": "Project Management",
-"description": "Planning and executing operational projects efficiently."
-},
-{
-"skill": "Problem Solving",
-"description": "Quickly identifying and resolving operational issues."
-},
-{
-"skill": "AI-Driven Analysis",
-"description": "Using AI tools to analyze data and solve operational problems."
-},
-{
-"skill": "Adaptability",
-"description": "Adjusting to changing business needs and environments swiftly."
-}
+const skillCategories = [
+  {
+    category: "Project Management Tools",
+    skills: ["Trello", "Asana", "Notion", "Google Workspace", "MS Excel", "Google Sheets"],
+  },
+  {
+    category: "Reporting & Presentation",
+    skills: ["Microsoft PowerPoint", "Google Slides", "Dashboard Reporting"],
+  },
+  {
+    category: "Project Management",
+    skills: ["Planning & Scheduling", "Milestone Tracking", "Risk Identification", "Status Reporting"],
+  },
+  {
+    category: "Operations",
+    skills: ["Workflow Optimization", "Vendor Coordination", "MICE Operations", "Event Management"],
+  },
+  {
+    category: "Data & Analytics",
+    skills: ["Data Collection", "Data Visualization", "AI-Driven Analysis", "Data-Driven Decision Making"],
+  },
+  {
+    category: "Soft Skills",
+    skills: ["Team Collaboration", "Problem Solving", "Adaptability", "Communication", "Attention to Detail"],
+  },
+]
+
+const coreCompetencies = [
+  "Project Coordination & Planning",
+  "Operations Management",
+  "Cross-functional Team Collaboration",
+  "Vendor & Stakeholder Coordination",
+  "Workflow Monitoring & Process Optimization",
+  "Data Analysis & Reporting",
+  "Event & MICE Operations",
+  "Problem Solving & Adaptability",
 ]
 
 export default function Skills() {
@@ -54,27 +48,52 @@ export default function Skills() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-3xl font-bold text-center mb-12"
+          className="text-3xl font-bold text-center mb-4"
         >
           Skills & Expertise
         </motion.h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {skills.map((skill, index) => (
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="text-muted-foreground text-center mb-10 max-w-xl mx-auto"
+        >
+          A blend of operational know-how, project leadership, and data-driven thinking.
+        </motion.p>
+
+        {/* Core Competencies */}
+        <div className="flex flex-wrap justify-center gap-3 mb-14 max-w-4xl mx-auto">
+          {coreCompetencies.map((comp, index) => (
+            <motion.span
+              key={comp}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.3, delay: index * 0.05 }}
+              className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium"
+            >
+              {comp}
+            </motion.span>
+          ))}
+        </div>
+
+        {/* Skill Categories */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {skillCategories.map((cat, index) => (
             <motion.div
-              key={skill.category}
+              key={cat.category}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="p-6 bg-card rounded-lg shadow-lg"
             >
-              <div className="flex items-center gap-4 mb-4">
-                {/* <div className="text-primary">{skill.icon}</div> */}
-                <h3 className="font-semibold">{skill.skill}</h3>
-              </div>
-              <ul className="space-y-2">
-                  <li className="text-muted-foreground">
-                    {skill.description}
+              <h3 className="font-semibold mb-3 text-base">{cat.category}</h3>
+              <ul className="space-y-1">
+                {cat.skills.map((skill) => (
+                  <li key={skill} className="text-muted-foreground text-sm flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary inline-block flex-shrink-0" />
+                    {skill}
                   </li>
+                ))}
               </ul>
             </motion.div>
           ))}

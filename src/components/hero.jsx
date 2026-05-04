@@ -18,7 +18,7 @@ export default function Hero() {
             Himanshu Vashist
           </h1>
           <h2 className="text-2xl md:text-3xl text-muted-foreground mb-8">
-            Operations Associate & Project Coordinator  
+            Project Coordinator & Operations Associate
           </h2>
           <div className="flex justify-center gap-6">
             <motion.a
