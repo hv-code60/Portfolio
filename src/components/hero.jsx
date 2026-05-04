@@ -44,7 +44,7 @@ export default function Hero() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              href="https://drive.google.com/file/d/1p3TjH9dFmEE5K1tuKJ-8ch9o2OARhsVH/view?usp=sharing"
+              href="https://drive.google.com/file/d/1D_tcArQG9k38yTXERe1ytxczGyq2MTvy/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl hover:text-primary"
